@@ -20,5 +20,9 @@ quiver of the l13v engineering, decisions and pack-builder packs.
 |---|---|---|---|
 | 2026-11-17, Quiver 0.22.1 | the person's words | 4 of 7 | 2 (investigate), 6 (ideate, adr) |
 | 2026-11-17, Quiver 0.23.0, packs' discovery queries rewritten | the person's words | 6 of 7 | 7: standards.fastapi only `partial` |
+| 2026-11-17, Quiver 0.23.0, route 0.1.0 | the "Search" column | 5 of 7 (7 now all `strong`) | 5, 6: "decide between options" returns handoff first, ideate absent |
+
+Noise ranked `strong` in the routed run (dropped by rule 2.4.1, card must fit): executor (2), caveman (3), handoff
+(5, 6), big-picture (4). The routed query for 5 and 6 needs an `ideate` discovery query in the decision vocabulary.
 
 A run with this skill uses the "Search" column and records the same table plus fetches and tokens per task.
