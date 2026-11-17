@@ -27,3 +27,14 @@ Noise ranked `strong` in the routed run (dropped by rule 2.4.1, card must fit): 
 (5, 6), big-picture (4). The routed query for 5 and 6 needs an `ideate` discovery query in the decision vocabulary.
 
 A run with this skill uses the "Search" column and records the same table plus fetches and tokens per task.
+
+## Real sessions
+
+Recorded conversations scored against the rulebook. Each row lists the rules followed and the rules missed.
+
+| Date | Client, Quiver | Task | Followed | Missed |
+|---|---|---|---|---|
+| 2026-11-17 | ChatGPT, 0.24.0 ([shared chat](https://chatgpt.com/share/6afc8988-c448-83eb-8f16-cf5fea61e92b)) | Ontology engineering, then "federate across relational, vector and time-series stores" | 2.1 banner once from whoami; 2.3 per-phase search (ideate, prior-art, grill-me, cited with versions); 2.4.4 took nothing for ontology/RDF/OWL/SHACL/SPARQL; 2.8 reported the gap | 2.7: the goal changed (federation), but it answered with no new search and no cites; the banner omitted the organization; it evaluated the quiver ("architectural observation") |
+
+Expected on a rerun with aqi.base 1.0.1 and the ontology pack served: a search on the federation turn that finds
+the ontology pack's federation rulebook and cites it.
