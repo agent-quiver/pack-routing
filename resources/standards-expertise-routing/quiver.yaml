@@ -1,0 +1,23 @@
+id: standards.expertise-routing
+kind: resource
+version: 0.1.0
+title: Expertise routing standard
+description: 'Rulebook for agents that use a quiver: discover per phase, select what fits (rules always, never the
+  top hit by default), compose with precedence and conflicts surfaced, cite with versions; how routing is measured.'
+card: 'Using skills and rules from a quiver during a task: what to search, what to keep, what to read and what to cite.'
+discovery:
+  queries:
+  - rules for choosing skills from my quiver
+  - two skills disagree, which one wins
+  - what must an agent cite from the quiver
+tags:
+- standards
+- routing
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content
+entrypoint: rules.md

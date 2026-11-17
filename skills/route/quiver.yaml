@@ -1,0 +1,23 @@
+id: route
+kind: skill
+version: 0.1.0
+title: Route a task to expertise
+description: 'Before and during a multi-step task: frame each phase as a task type, search the quiver, keep only
+  what fits, read only what is needed, surface conflicts and cite what was used.'
+card: 'Starting or changing phase in a task: find, pick and combine the right skills and rules from the quiver, then cite them.'
+discovery:
+  queries:
+  - which skills or rules in my quiver apply to this task
+  - find the right expertise before starting
+  - the task moved on, what applies now
+  - how do I use my quiver well
+tags:
+- routing
+- discovery
+owner: agent-quiver
+lifecycle:
+  status: published
+audience:
+- public
+execution:
+  mode: content

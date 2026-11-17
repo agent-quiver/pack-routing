@@ -1,12 +1,17 @@
-id: your-namespace/your-pack        # <forge namespace>/<repository>, lower case
-version: 0.1.0                      # equals the release tag without the v
-title: Your pack
-card: "One line: when should an agent use this pack?"
-description: What the pack holds and who it is for.
+id: agent-quiver/pack-routing
+version: 0.1.0
+title: Routing pack
+card: 'Any multi-step task: find, pick and combine the right skills and rules from your quiver as the work moves, and cite them.'
+description: 'How an agent routes a task to expertise with the quiver it already has: frame each phase as a task type,
+  search, keep only what fits (rules always), read only what is needed, surface conflicts and cite every artifact with
+  its version. The route skill follows the expertise-routing rulebook; evals/ holds the measured baseline.'
 maintainers:
-  - your-name
+- agent-quiver
 license: CC-BY-4.0
-tags: []
-requires: []                        # connectors the artifacts need; never a grant
+tags:
+- routing
+- discovery
+- agents
+requires: []
 compatibility:
-  quiver: ">=1.0.0 <2.0.0"
+  quiver: '>=1.0.0 <2.0.0'
