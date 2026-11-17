@@ -1,0 +1,12 @@
+id: your-namespace/your-pack        # <forge namespace>/<repository>, lower case
+version: 0.1.0                      # equals the release tag without the v
+title: Your pack
+card: "One line: when should an agent use this pack?"
+description: What the pack holds and who it is for.
+maintainers:
+  - your-name
+license: CC-BY-4.0
+tags: []
+requires: []                        # connectors the artifacts need; never a grant
+compatibility:
+  quiver: ">=1.0.0 <2.0.0"
