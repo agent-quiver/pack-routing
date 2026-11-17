@@ -11,8 +11,9 @@ of this pack; this is the procedure.
 
 ## 1. Orient (once per session)
 
-Call `whoami`. If a pack the person expects is not served, tell them why (for example "connect GitHub") instead of
-working around the gap.
+Call `whoami` first. It returns the quiver's base (`aqi.base`, in `base`): how to introduce the quiver and the short
+form of this procedure. Follow it if your client did not already show it when you connected. If a pack the person
+expects is not served, tell them why (for example "connect GitHub") instead of working around the gap.
 
 ## 2. Frame the phases
 

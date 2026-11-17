@@ -1,5 +1,5 @@
 id: agent-quiver/pack-routing
-version: 0.1.0
+version: 0.1.1
 title: Routing pack
 card: 'Any multi-step task: find, pick and combine the right skills and rules from your quiver as the work moves, and cite them.'
 description: 'How an agent routes a task to expertise with the quiver it already has: frame each phase as a task type,

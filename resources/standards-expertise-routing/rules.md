@@ -17,7 +17,8 @@ Kinds: `skill` (how to do something), `resource` (rules and reference; `standard
 
 ## 2. Rules
 
-1. **Orient.** SHOULD call `whoami` once per session and tell the person about a pack that is not served.
+1. **Orient.** SHOULD call `whoami` first, once per session: it carries the quiver's base (`aqi.base`), which this
+   standard details. Tell the person about a pack that is not served.
 2. **Frame.** MUST split the task into phases (at most three at a time) and restate each as a task type ("root-cause
    a failure", "decide between options"), not in the person's symptom words.
 3. **Discover.** MUST search once per phase with the task type. MAY search again with the person's key nouns.

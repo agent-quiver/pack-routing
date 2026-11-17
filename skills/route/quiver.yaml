@@ -1,6 +1,6 @@
 id: route
 kind: skill
-version: 0.1.0
+version: 0.1.1
 title: Route a task to expertise
 description: 'Before and during a multi-step task: frame each phase as a task type, search the quiver, keep only
   what fits, read only what is needed, surface conflicts and cite what was used.'

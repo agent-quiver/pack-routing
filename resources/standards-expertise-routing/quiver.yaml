@@ -1,6 +1,6 @@
 id: standards.expertise-routing
 kind: resource
-version: 0.1.0
+version: 0.1.1
 title: Expertise routing standard
 description: 'Rulebook for agents that use a quiver: discover per phase, select what fits (rules always, never the
   top hit by default), compose with precedence and conflicts surfaced, cite with versions; how routing is measured.'

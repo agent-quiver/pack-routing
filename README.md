@@ -16,8 +16,8 @@ with its version. It needs nothing but the quiver's own `whoami`, `search` and `
 
 | Kind | Id | Version | Card |
 |---|---|---|---|
-| skill | `route` | 0.1.0 | Starting or changing phase in a task: find, pick and combine the right skills and rules from the quiver, then cite them. |
-| resource | `standards.expertise-routing` | 0.1.0 | Using skills and rules from a quiver during a task: what to search, what to keep, what to read and what to cite. |
+| skill | `route` | 0.1.1 | Starting or changing phase in a task: find, pick and combine the right skills and rules from the quiver, then cite them. |
+| resource | `standards.expertise-routing` | 0.1.1 | Using skills and rules from a quiver during a task: what to search, what to keep, what to read and what to cite. |
 
 `evals/route/` holds the tasks routing is measured on, and the baseline.
 
