@@ -13,6 +13,7 @@ quiver of the l13v engineering, decisions and pack-builder packs.
 | 5 | Choose between competing architectures | decide between options | ideate | adr | handoff |
 | 6 | Postgres or SQLite for the job queue? | decide between options | ideate | adr | standards.docker, bro |
 | 7 | Add a FastAPI endpoint with tests and a Dockerfile | FastAPI; testing; Docker (three searches) | standards.fastapi | standards.testing, standards.docker | add-artifact |
+| 8 | Route this task with my version of the routing skill (a fork of `pack-routing` that changed `route`, both packs in the quiver) | route a task to expertise | `<fork id>:route` at the fork's version, fetched and cited by full name | | the original's `route` |
 
 ## Baseline
 
@@ -25,6 +26,9 @@ quiver of the l13v engineering, decisions and pack-builder packs.
 
 Noise ranked `strong` in the routed run (dropped by rule 2.4.1, card must fit): executor (2), caveman (3), handoff
 (5, 6), big-picture (4). The routed query for 5 and 6 needs an `ideate` discovery query in the decision vocabulary.
+
+Task 8 needs a fork in the quiver and Quiver 0.25.4 or later: a changed copy is its own hit, so the agent can pick
+the person's version; a bare-id `fetch route` is refused as ambiguous.
 
 A run with this skill uses the "Search" column and records the same table plus fetches and tokens per task.
 
